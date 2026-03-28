@@ -7,7 +7,7 @@ g++ -std=c++17 -O3 main.cpp modules.cpp -o ~/.local/bin/prompt
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Archirithm/my_zsh_prompt/main/screenshot1.png" width="500">
+  <img src="https://raw.githubusercontent.com/Archirithm/my_zsh_prompt/main/Screenshot1.png" width="500">
 </p>
 
 <p align="center">
