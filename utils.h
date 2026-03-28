@@ -12,8 +12,8 @@ const std::string C_RED = "#F38BA8";    // 时间戳(错误)
 const std::string C_GRAY = "#A6ADC8";   // 连线, 节点符号
 
 struct RenderedPill {
-  std::string zsh_code;
-  int visible_width;
+        std::string zsh_code;
+        int visible_width;
 };
 
 std::string exec_cmd(const char *cmd);
