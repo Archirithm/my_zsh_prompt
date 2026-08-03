@@ -26,8 +26,11 @@ manifest。颜色在 apply/hook 时生成，prompt 绘制时只读取已生成�
 修改，迁移只读取并复制文件，不会写回或覆盖该仓库；源文件保留其 prompt 功能、Git
 状态栏、语言检测、宽度计算和测试。
 
+来源仓库当前没有单独的 LICENSE 文件；本仓库保留其 README 中的功能说明和
+`Archirithm/my_zsh_prompt` 来源链接，并在本包中新增的安装/Matugen 接入代码沿用
+Clavis 的 GPL-3.0 项目许可。个人 `.zshrc`、截图和构建产物没有被复制。
+
 ## 与 Clavis Shell 的关系和未来 AUR
 
 Shell/Matugen hook 只调用本仓库公开的 `apply` 接口；`key-cli` 仅作为官方组件编排器。
 AUR 可把本仓库打包为独立 `clavis-zsh-theme`，不需要 Shell runtime 或 key daemon。
-
